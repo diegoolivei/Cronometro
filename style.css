@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(74, 69, 69);
+
+}
+
+#container{
+    width: 35%;
+    height: 400px;
+    background-color: rgb(19, 18, 18);
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 30px;
+    margin: auto;
+    margin-top:150px;
+
+}
+.botoes{
+    position: relative;
+    left: 40%;
+   bottom: 120px;
+}
+
+#title{
+    padding: 30px;
+    text-align: center;
+}
+
+.iniciar{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    font-weight: bolder;
+    background-color: green;
+    color: white;
+}
+
+.iniciar:hover{
+    background-color: white;
+    color: black;
+}
+.pausar{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    font-weight: bolder;
+    background-color: red;
+    color: white;
+    
+}
+
+.pausar:hover{
+    background-color: white;
+    color: black;
+}
+
+.resetar{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    font-weight: bolder;
+    background-color: blue;
+    color: white;
+    position: absolute;
+}
+
+.resetar:hover{
+    background-color: white;
+    color: black;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    position: relative;
+    left: 180px;
+}
+
+#relogio{
+    position: absolute;
+    left: 45%;
+}
